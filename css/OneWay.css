@@ -1,0 +1,37 @@
+:root {
+  --marge-left: 10px;
+}
+
+#movie01{
+  width : 720px;
+  height : 480px;
+  margin-left:10px;
+  margin-bottom: 0px;
+  padding: 0px;
+  background-color: #fff;
+}
+
+/* #movie02{
+  width : 720px;
+  height : 480px;
+  margin-top:5px;
+  margin-bottom: 0px;
+  margin-left:10px;
+  padding: 0px;
+  background-color: #fff;
+}
+
+#movie03{
+  width : 720px;
+  height : 480px;
+  margin-top:5px;
+  margin-bottom: 0px;
+  margin-left:10px;
+  padding: 0px;
+  background-color: #fff;
+}
+
+video{
+  margin-top:0px;
+  margin-bottom: 0px; */
+}
