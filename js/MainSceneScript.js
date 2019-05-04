@@ -155,7 +155,7 @@ window.onload = function(){
   $('#work-img09').click(function() {
       location.href = "../html/FureFure.html";
   })
-  ('#work-img10').click(function() {
-      location.href = "../html/FureFure.html";
+  $('#work-img10').click(function() {
+      location.href = "../html/LED.html";
   })
 }

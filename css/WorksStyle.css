@@ -1,14 +1,16 @@
-:root {
-  --marge-left: 10px;
-}
+/*全体共通のcss*/
 
 a {
   font-family: 'Avenir';
-  color : #04B486;
+  color : #555;
 }
 
 
 h2{
+  font-family: 'Avenir';
+}
+
+p{
   font-family: 'Avenir';
 }
 
@@ -44,6 +46,11 @@ header{
   margin-top:.7em;
 }
 /*--------------------------------------------------*/
+/*ページの左端のmargin*/
+:root {
+  --marge-left: 20px;
+  --marge-bottom: 30px;
+}
 
 *{
   margin: 0px;
@@ -52,14 +59,49 @@ header{
 .TopImage img{
   width : 720px;
   height : 480px;
-  margin-left:var(--marge-left);
+  margin-left: var(--marge-left);
   object-fit: cover;
 }
 
 .Title h2{
-  margin-left:var(--marge-left);
+  margin-left: var(--marge-left);
 }
 
 .Title h5{
-  margin-left:var(--marge-left);
+  margin-left: var(--marge-left);
+}
+
+.Expression{
+    margin-left: var(--marge-left);
+}
+
+.Movie{
+  margin-left: var(--marge-left);
+}
+
+.Tools{
+  margin-left: var(--marge-left);
+}
+
+.Tools h5{
+  margin-top: var(--marge-bottom);
+}
+
+.Tools p{
+  margin-bottom: var(--marge-bottom);
+  font-family:serif;
+}
+
+.noMarginMovie{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.noMarginImg{
+  width : 720px;
+  height : 480px;
+  margin-left:20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0px;
+  background-color: #fff;
 }
