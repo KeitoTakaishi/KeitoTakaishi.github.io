@@ -1,25 +1,28 @@
 /*全体共通のcss*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+
 
 a {
-  font-family: 'Avenir';
+  /* font-family: 'Avenir'; */
+  font-family: 'Noto Serif JP', serif;
   color : #555;
+
 }
 
 
 h2{
-  font-family: 'Avenir';
+  /* font-family: 'Avenir'; */
+  font-family: 'Noto Serif JP', serif;
 }
 
-p{
-  font-family: 'Avenir';
-}
+
 
 
 header{
   position: relative;
   margin-left:var(--marge-left);
   color: #000;
-  background-color: #fff;
+  background-color: #eee;
   font-size: 40px;
   color: #000;
   font-family:serif;
@@ -65,10 +68,12 @@ header{
 
 .Title h2{
   margin-left: var(--marge-left);
+  margin-bottom: 20px;
 }
 
 .Title h5{
   margin-left: var(--marge-left);
+  margin-bottom: 2px;
 }
 
 .Expression{
@@ -84,12 +89,17 @@ header{
 }
 
 .Tools h5{
+  font-family: 'Noto Serif JP', serif;
   margin-top: var(--marge-bottom);
 }
 
 .Tools p{
+  font-family: 'Noto Serif JP', serif;
   margin-bottom: var(--marge-bottom);
-  font-family:serif;
+}
+
+.Expression p{
+  font-family: 'Noto Serif JP', serif;
 }
 
 .noMarginMovie{
