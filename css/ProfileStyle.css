@@ -33,6 +33,7 @@ h4{
 /*--------------------------------------------------*/
 body{
   display: none;
+  margin-bottom: 50px;
 }
 header{
   position: relative;
