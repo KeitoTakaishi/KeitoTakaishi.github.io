@@ -14,6 +14,7 @@ window.onload = function(){
   $("#work-img08").fadeIn(800);
   $("#work-img09").fadeIn(1200);
   $("#work-img10").fadeIn(1200);
+  $("#work-img11").fadeIn(1200);
 
 
 
@@ -125,6 +126,16 @@ window.onload = function(){
       $("#work-des10").fadeOut();
     }
   );
+  $("#work-img11").mouseover(
+    function(){
+      $("#work-des11").fadeIn();
+    }
+  );
+  $("#work-img11").mouseout(
+    function(){
+      $("#work-des11").fadeOut();
+    }
+  );
 
 
   $('#work-img01').click(function() {
@@ -157,5 +168,8 @@ window.onload = function(){
   })
   $('#work-img10').click(function() {
       location.href = "../html/LED.html";
+  })
+  $('#work-img11').click(function() {
+      location.href = "../html/Gan.html";
   })
 }

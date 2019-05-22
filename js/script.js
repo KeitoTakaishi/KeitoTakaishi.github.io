@@ -2,11 +2,10 @@
 window.onload = $(function() {
   // $('body').fadeIn(500);
   $('body').fadeIn(1500);
-  $('#title').fadeIn(7500);
 });
 
 setTimeout(function(){
-      $('body').fadeOut('500');
+      $('body').fadeOut(500);
 },7000);
 
 
