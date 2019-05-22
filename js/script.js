@@ -1,13 +1,16 @@
 // TopScene-js
-$(function() {
-  $('body').fadeIn('500');
+window.onload = $(function() {
+  // $('body').fadeIn(500);
+  $('body').fadeIn(1500);
+  $('#title').fadeIn(7500);
 });
 
 setTimeout(function(){
       $('body').fadeOut('500');
 },7000);
 
-$('.title').t({
+
+$('#title').t({
    speed:60,          // タイピングのスピードを指定します。
    speed_vary:true,  // 「true」にすると人間が入力しているかのように文字ごとのスピードが変わります。
    delay:1.0,       // 開始時間を指定します。
