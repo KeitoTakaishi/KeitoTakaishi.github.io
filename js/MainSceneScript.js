@@ -15,6 +15,7 @@ window.onload = function(){
   $("#work-img09").fadeIn(1200);
   $("#work-img10").fadeIn(1200);
   $("#work-img11").fadeIn(1200);
+  $("#work-img12").fadeIn(800);
 
 
 
@@ -138,6 +139,18 @@ window.onload = function(){
   );
 
 
+  $("#work-img12").mouseover(
+    function(){
+      $("#work-des12").fadeIn();
+    }
+  );
+  $("#work-img12").mouseout(
+    function(){
+      $("#work-des12").fadeOut();
+    }
+  );
+
+
   $('#work-img01').click(function() {
       location.href = "../html/VJ02.html";
   })
@@ -171,5 +184,9 @@ window.onload = function(){
   })
   $('#work-img11').click(function() {
       location.href = "../html/Gan.html";
+  })
+
+  $('#work-img12').click(function() {
+    location.href = "../html/DCGAN.html";
   })
 }
