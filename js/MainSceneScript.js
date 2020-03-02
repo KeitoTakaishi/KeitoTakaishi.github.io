@@ -161,6 +161,29 @@ window.onload = function(){
     }
   );
 
+  $("#work-mutek").mouseover(
+    function(){
+      $("#work-des-mutek").fadeIn();
+    }
+  );
+  $("#work-mutek").mouseout(
+    function(){
+      $("#work-des-mutek").fadeOut();
+    }
+  );
+
+  //Rhizomatics
+  $("#work-rzm").mouseover(
+    function(){
+      $("#work-des-rzm").fadeIn();
+    }
+  );
+  $("#work-rzm").mouseout(
+    function(){
+      $("#work-des-rzm").fadeOut();
+    }
+  );
+
   $('#work-img01').click(function() {
       location.href = "../html/VJ02.html";
   })
@@ -202,4 +225,14 @@ window.onload = function(){
   $('#work-img13').click(function() {
     location.href = "../html/BurnNow.html";
   })
+
+  //Rembrandt
+  $('#work-mutek').click(function() {
+    location.href = "../html/Rembrant.html";
+  })
+
+  $('#work-rzm').click(function() {
+    location.href = "../html/rzm.html";
+  })
+
 }
