@@ -184,6 +184,18 @@ window.onload = function(){
     }
   );
 
+  //ces
+  $("#work-ces").mouseover(
+    function(){
+      $("#work-des-ces").fadeIn();
+    }
+  );
+  $("#work-ces").mouseout(
+    function(){
+      $("#work-des-ces").fadeOut();
+    }
+  );
+
   $('#work-img01').click(function() {
       location.href = "../html/VJ02.html";
   })
@@ -234,5 +246,11 @@ window.onload = function(){
   $('#work-rzm').click(function() {
     location.href = "../html/rzm.html";
   })
+
+  //ces
+  $('#work-ces').click(function() {
+    location.href = "../html/ces.html";
+  })
+
 
 }
