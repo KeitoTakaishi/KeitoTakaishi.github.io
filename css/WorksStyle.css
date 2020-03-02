@@ -66,6 +66,14 @@ header{
   object-fit: cover;
 }
 
+.TopImage_BurnNow img{
+  width : 400px;
+  height : 620px;
+  margin-left: var(--marge-left);
+  object-fit: cover;
+}
+
+
 .Title h2{
   margin-left: var(--marge-left);
   margin-bottom: 20px;

@@ -150,6 +150,16 @@ window.onload = function(){
     }
   );
 
+  $("#work-img13").mouseover(
+    function(){
+      $("#work-des13").fadeIn();
+    }
+  );
+  $("#work-img13").mouseout(
+    function(){
+      $("#work-des13").fadeOut();
+    }
+  );
 
   $('#work-img01').click(function() {
       location.href = "../html/VJ02.html";
@@ -185,8 +195,11 @@ window.onload = function(){
   $('#work-img11').click(function() {
       location.href = "../html/Gan.html";
   })
-
   $('#work-img12').click(function() {
     location.href = "../html/DCGAN.html";
+  })
+  //BurnNow 
+  $('#work-img13').click(function() {
+    location.href = "../html/BurnNow.html";
   })
 }
