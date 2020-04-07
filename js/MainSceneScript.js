@@ -19,6 +19,7 @@ window.onload = function(){
 
 
 
+
   //---Titleの出現エフェクト
   $("#work-img01").mouseover(
     function(){
@@ -196,6 +197,18 @@ window.onload = function(){
     }
   );
 
+  //fluid_vj01
+  $("#work-fluid-vj01").mouseover(
+    function(){
+      $("#work-des-fluid-vj01").fadeIn();
+    }
+  );
+  $("#work-fluid-vj01").mouseout(
+    function(){
+      $("#work-des-fluid-vj01").fadeOut();
+    }
+  );
+
   $('#work-img01').click(function() {
       location.href = "../html/VJ02.html";
   })
@@ -237,12 +250,11 @@ window.onload = function(){
   $('#work-img13').click(function() {
     location.href = "../html/BurnNow.html";
   })
-
   //Rembrandt
   $('#work-mutek').click(function() {
     location.href = "../html/Rembrant.html";
   })
-
+  //rzm_year_end_party_2020
   $('#work-rzm').click(function() {
     location.href = "../html/rzm.html";
   })
@@ -252,5 +264,9 @@ window.onload = function(){
     location.href = "../html/ces.html";
   })
 
+  //fluid_vj
+  $('#work-fluid-vj01').click(function() {
+    location.href = "../html/fluid_vj01.html";
+  })
 
 }
