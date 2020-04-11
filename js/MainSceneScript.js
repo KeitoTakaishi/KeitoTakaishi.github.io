@@ -209,6 +209,18 @@ window.onload = function(){
     }
   );
 
+
+  //propagation
+  $("#work-propagation").mouseover(
+    function(){
+      $("#work-des-propagation").fadeIn();
+    }
+  );
+  $("#work-propagation").mouseout(
+    function(){
+      $("#work-des-propagation").fadeOut();
+    }
+  );
   $('#work-img01').click(function() {
       location.href = "../html/VJ02.html";
   })
@@ -267,6 +279,10 @@ window.onload = function(){
   //fluid_vj
   $('#work-fluid-vj01').click(function() {
     location.href = "../html/fluid_vj01.html";
+  })
+  //propagation
+  $('#work-propagation').click(function() {
+    location.href = "../html/propagation.html";
   })
 
 }
