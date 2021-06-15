@@ -234,6 +234,17 @@ window.onload = function(){
     }
   );
 
+  //ansuz
+  $("#work-ansuz").mouseover(
+    function(){
+      $("#work-des-ansuz").fadeIn();
+    }
+  );
+  $("#work-ansuz").mouseout(
+    function(){
+      $("#work-des-ansuz").fadeOut();
+    }
+  );
 
 
   //---------------------------------------------------------------------------------------
@@ -303,5 +314,10 @@ window.onload = function(){
   //sawa
   $('#work-sawa-ogaki').click(function() {
     location.href = "../html/SawaOgaki.html";
+  })
+
+  //Ansuz
+  $('#work-ansuz').click(function() {
+    location.href = "../html/Ansuz.html";
   })
 }
