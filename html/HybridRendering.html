@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/WorksStyle.css">
+    <link rel="stylesheet" href="../css/Feel.css">
+    <script type="text/javascript" src=../js/jquery.min.js></script>
+    <script type="text/javascript" src=../js/ProfileScene.js></script>
+</head>
+
+<!------------------------------------------------------------------------------->
+<body>
+
+    <header>
+    <a id="Name" href="./mainScene.html">KeitoTakaishi</a>
+    <a id="About" href="./profileScene.html">About</a>
+    </header>
+
+    <!--1.EditImage -->
+    <div class="TopImage">
+    <img src="../images/HybridRenderer.png">
+    </div>
+
+    <!--2.EditTitle -->
+    <div class="Title">
+        <h2>
+            <!-- タイトル -->
+        </h2>
+        <h5>Overview</h5>
+    </div>
+    <br>
+
+    <!--3.Expression -->
+    <div class="Expression">
+    <p>
+        卒業研究<br>
+        陰関数曲面と流体を同時にリアルタイムレンダリングする手法についての研究。<br>
+        流体シミュレーションの衝突シーンでは，衝突対象をポリゴンではなく連続的な陰関数として<br>
+        表現することでシミュレーションの精度を向上させることが出来る。<br><br>
+        
+        メッシュで表現される流体と陰関数で表現される衝突対象を同一の手法でレンダリングすることが<br>
+        出来ない点とレンダリングされる座標系が異なるため、前後関係を再現することがこの研究での具体的な目的である。<br><br>
+
+        この問題に対してハイブリッドレンダリングを用いることによって既存のパイプラインに<br>
+        レイマーチング法による陰関数曲面のレンダリングを統合。<br>
+        また位置関係についてはデプス情報をオフスクリーンレンダリングし比較することで解決。<br>
+    </p>
+    </div>
+
+
+
+    <div class="Movie">
+        <iframe src="https://player.vimeo.com/video/563302958" width="720" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <p><a href="https://vimeo.com/563302958">HybridRendering</a> from <a href="https://vimeo.com/user90203867">keito takaishi</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    </div>
+
+
+    <div class="Tools">
+    <h5>Tools</h5>
+    <p>openFrameworks</p>
+    </div>
+
+</body>
+</html>

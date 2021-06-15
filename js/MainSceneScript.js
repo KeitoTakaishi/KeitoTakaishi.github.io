@@ -246,6 +246,18 @@ window.onload = function(){
     }
   );
 
+  //ansuz
+  $("#work-hrender").mouseover(
+    function(){
+      $("#work-des-hrender").fadeIn();
+    }
+  );
+  $("#work-hrender").mouseout(
+    function(){
+      $("#work-des-hrender").fadeOut();
+    }
+  );
+
 
   //---------------------------------------------------------------------------------------
   $('#work-img01').click(function() {
@@ -319,5 +331,10 @@ window.onload = function(){
   //Ansuz
   $('#work-ansuz').click(function() {
     location.href = "../html/Ansuz.html";
+  })
+
+  //HRender
+  $('#work-hrender').click(function() {
+    location.href = "../html/HybridRendering.html";
   })
 }
