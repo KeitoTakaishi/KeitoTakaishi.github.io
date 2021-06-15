@@ -221,6 +221,22 @@ window.onload = function(){
       $("#work-des-propagation").fadeOut();
     }
   );
+
+  //sawa
+  $("#work-sawa-ogaki").mouseover(
+    function(){
+      $("#work-des-sawa-ogaki").fadeIn();
+    }
+  );
+  $("#work-sawa-ogaki").mouseout(
+    function(){
+      $("#work-des-sawa-ogaki").fadeOut();
+    }
+  );
+
+
+
+  //---------------------------------------------------------------------------------------
   $('#work-img01').click(function() {
       location.href = "../html/VJ02.html";
   })
@@ -284,5 +300,8 @@ window.onload = function(){
   $('#work-propagation').click(function() {
     location.href = "../html/propagation.html";
   })
-
+  //sawa
+  $('#work-sawa-ogaki').click(function() {
+    location.href = "../html/SawaOgaki.html";
+  })
 }
