@@ -258,6 +258,18 @@ window.onload = function(){
     }
   );
 
+  //ansuz
+  $("#work-plateau").mouseover(
+    function(){
+      $("#work-des-plateau").fadeIn();
+    }
+  );
+  $("#work-plateau").mouseout(
+    function(){
+      $("#work-des-plateau").fadeOut();
+    }
+  );
+
 
   //---------------------------------------------------------------------------------------
   $('#work-img01').click(function() {
@@ -336,5 +348,10 @@ window.onload = function(){
   //HRender
   $('#work-hrender').click(function() {
     location.href = "../html/HybridRendering.html";
+  })
+
+  //Plateau
+  $('#work-plateau').click(function() {
+    location.href = "../html/Plateau.html";
   })
 }
