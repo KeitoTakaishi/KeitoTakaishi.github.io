@@ -32,7 +32,7 @@ window.onload = function(){
       $("#work-des01").fadeOut();
     }
   );
-
+  //------------------------------
   $("#work-img02").mouseover(
     function(){
       $("#work-des02").fadeIn();
@@ -43,6 +43,7 @@ window.onload = function(){
       $("#work-des02").fadeOut();
     }
   );
+  //------------------------------
   $("#work-img03").mouseover(
     function(){
       $("#work-des03").fadeIn();
@@ -53,6 +54,7 @@ window.onload = function(){
       $("#work-des03").fadeOut();
     }
   );
+  //------------------------------
   $("#work-img04").mouseover(
     function(){
       $("#work-des04").fadeIn();
@@ -63,7 +65,7 @@ window.onload = function(){
       $("#work-des04").fadeOut();
     }
   );
-
+  //------------------------------
   $("#work-img05").mouseover(
     function(){
       $("#work-des05").fadeIn();
@@ -74,7 +76,7 @@ window.onload = function(){
       $("#work-des05").fadeOut();
     }
   );
-
+  //------------------------------
   $("#work-img06").mouseover(
     function(){
       $("#work-des06").fadeIn();
@@ -85,7 +87,7 @@ window.onload = function(){
       $("#work-des06").fadeOut();
     }
   );
-
+  //------------------------------
   $("#work-img07").mouseover(
     function(){
       $("#work-des07").fadeIn();
@@ -96,7 +98,7 @@ window.onload = function(){
       $("#work-des07").fadeOut();
     }
   );
-
+  //------------------------------
   $("#work-img08").mouseover(
     function(){
       $("#work-des08").fadeIn();
@@ -107,7 +109,7 @@ window.onload = function(){
       $("#work-des08").fadeOut();
     }
   );
-
+  //------------------------------
   $("#work-img09").mouseover(
     function(){
       $("#work-des09").fadeIn();
@@ -118,6 +120,7 @@ window.onload = function(){
       $("#work-des09").fadeOut();
     }
   );
+  //------------------------------
   $("#work-img10").mouseover(
     function(){
       $("#work-des10").fadeIn();
@@ -128,6 +131,7 @@ window.onload = function(){
       $("#work-des10").fadeOut();
     }
   );
+  //------------------------------
   $("#work-img11").mouseover(
     function(){
       $("#work-des11").fadeIn();
@@ -138,8 +142,7 @@ window.onload = function(){
       $("#work-des11").fadeOut();
     }
   );
-
-
+  //------------------------------
   $("#work-img12").mouseover(
     function(){
       $("#work-des12").fadeIn();
@@ -150,7 +153,7 @@ window.onload = function(){
       $("#work-des12").fadeOut();
     }
   );
-
+  //------------------------------
   $("#work-img13").mouseover(
     function(){
       $("#work-des13").fadeIn();
@@ -161,7 +164,7 @@ window.onload = function(){
       $("#work-des13").fadeOut();
     }
   );
-
+  //------------------------------
   $("#work-mutek").mouseover(
     function(){
       $("#work-des-mutek").fadeIn();
@@ -172,7 +175,7 @@ window.onload = function(){
       $("#work-des-mutek").fadeOut();
     }
   );
-
+  //------------------------------
   //Rhizomatics
   $("#work-rzm").mouseover(
     function(){
@@ -184,7 +187,7 @@ window.onload = function(){
       $("#work-des-rzm").fadeOut();
     }
   );
-
+  //------------------------------
   //ces
   $("#work-ces").mouseover(
     function(){
@@ -196,7 +199,7 @@ window.onload = function(){
       $("#work-des-ces").fadeOut();
     }
   );
-
+  //------------------------------
   //fluid_vj01
   $("#work-fluid-vj01").mouseover(
     function(){
@@ -208,8 +211,7 @@ window.onload = function(){
       $("#work-des-fluid-vj01").fadeOut();
     }
   );
-
-
+  //------------------------------
   //propagation
   $("#work-propagation").mouseover(
     function(){
@@ -221,7 +223,7 @@ window.onload = function(){
       $("#work-des-propagation").fadeOut();
     }
   );
-
+  //------------------------------
   //sawa
   $("#work-sawa-ogaki").mouseover(
     function(){
@@ -233,7 +235,7 @@ window.onload = function(){
       $("#work-des-sawa-ogaki").fadeOut();
     }
   );
-
+  //------------------------------
   //ansuz
   $("#work-ansuz").mouseover(
     function(){
@@ -245,8 +247,8 @@ window.onload = function(){
       $("#work-des-ansuz").fadeOut();
     }
   );
-
-  //ansuz
+  //------------------------------
+  //hybrid-rebderer
   $("#work-hrender").mouseover(
     function(){
       $("#work-des-hrender").fadeIn();
@@ -257,8 +259,8 @@ window.onload = function(){
       $("#work-des-hrender").fadeOut();
     }
   );
-
-  //ansuz
+  //------------------------------
+  //plateau
   $("#work-plateau").mouseover(
     function(){
       $("#work-des-plateau").fadeIn();
@@ -269,7 +271,19 @@ window.onload = function(){
       $("#work-des-plateau").fadeOut();
     }
   );
-
+  //------------------------------
+  //ci-vis
+  $("#work-ci-vis").mouseover(
+    function(){
+      $("#work-des-ci-vis").fadeIn();
+    }
+  );
+  $("#work-ci-vis").mouseout(
+    function(){
+      $("#work-des-ci-vis").fadeOut();
+    }
+  );
+  //------------------------------
 
   //---------------------------------------------------------------------------------------
   $('#work-img01').click(function() {
@@ -353,5 +367,10 @@ window.onload = function(){
   //Plateau
   $('#work-plateau').click(function() {
     location.href = "../html/Plateau.html";
+  })
+
+  //ci-vis
+  $('#work-ci-vis').click(function() {
+    location.href = "../html/CI_Vis.html";
   })
 }
